@@ -43,10 +43,10 @@ const Calculator = () => {
         keyboardType="numeric"
       />
       <View style={styles.buttonContainer}>
-        <Button title="+" onPress={handleSum} />
-        <Button title="-" onPress={handleSubtract} />
-        <Button title="*" onPress={handleMultiply} />
-        <Button title="/" onPress={handleDivide} />
+        <Button title="Sumar " onPress={handleSum} />
+        <Button title="Restar" onPress={handleSubtract} />
+        <Button title="Multiplicarc" onPress={handleMultiply} />
+        <Button title="Dividir" onPress={handleDivide} />
       </View>
       <Text style={styles.result}>Resultado: {result}</Text>
     </View>
