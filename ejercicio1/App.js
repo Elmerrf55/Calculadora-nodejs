@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     width: '100%',
     marginBottom: 100,
-    color: '#ccc'
+    color: '#CC00FF'
     
    
   },
