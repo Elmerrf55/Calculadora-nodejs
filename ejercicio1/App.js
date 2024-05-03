@@ -43,10 +43,10 @@ const Calculator = () => {
         keyboardType="numeric"
       />
       <View style={styles.buttonContainer}>
-        <Button title="Sumar " onPress={handleSum} />
-        <Button title="Restar" onPress={handleSubtract} />
-        <Button title="Multiplicarc" onPress={handleMultiply} />
-        <Button title="Dividir" onPress={handleDivide} />
+        <Button title="+ " onPress={handleSum} />
+        <Button title="-" onPress={handleSubtract} />
+        <Button title="x" onPress={handleMultiply} />
+        <Button title="/" onPress={handleDivide} />
       </View>
       <Text style={styles.result}>Resultado: {result}</Text>
     </View>
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '100%',
-    marginBottom: 50,
+    marginBottom: 100,
     color: '#ccc'
     
    
